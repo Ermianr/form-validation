@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", serif;
+  font-size: 62.5%;
+}
+/* Email check*/
+.email-message {
+  display: none;
+}
+.zip-message {
+  display: none;
+}
+.password-message {
+  display: none;
+}
+.password-confirnm-message {
+  display: none;
+}
+.submit-message {
+  display: none;
+}
+.message-valid {
+  display: block;
+  background-color: green;
+}
+.message-invalid {
+  display: block;
+  background-color: red;
+}
